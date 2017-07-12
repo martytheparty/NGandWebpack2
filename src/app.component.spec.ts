@@ -9,6 +9,7 @@ describe('App', () => {
 
   it ('should work', () => {
     let fixture = TestBed.createComponent(AppComponent);
+    console.log('HELLO WORLD');
     expect(fixture.componentInstance instanceof AppComponent).toBe(true, 'should create AppComponent');
   });
 });
